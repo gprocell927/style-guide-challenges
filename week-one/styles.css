@@ -1,6 +1,22 @@
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header h1{
+float: left;
+}
+
+li {
+  list-style: none;
+}
+
 .horizontal {
+  background-color: #4004B2;
+  float: right;
   height: 10vh;
-  background-color: #202e5c;
+  display: inline-block;
 }
 
 .dropdown {

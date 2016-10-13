@@ -4,19 +4,30 @@ a {
   font-family: 'Ubuntu', sans-serif;
 }
 
+header {
+  background: #92E0E5;
+  color: white;
+  height: 50px;
+  padding: 0 25 px;
+}
+
 header h1{
 float: left;
+text-indent: -9999px;
+background: url('../images/placeholder.svg') no-repeat;
+height: 35px;
+width: 35px;
+margin-top: 8px;
 }
 
 li {
   list-style: none;
+  display: inline-block;
+  padding: 17px 10px;
 }
 
 .horizontal {
-  background-color: #4004B2;
   float: right;
-  height: 10vh;
-  display: inline-block;
 }
 
 .dropdown {
@@ -43,5 +54,9 @@ screen and (max-width: 414px) {
 
   .screen{
     display: block;
+  }
+
+  #menu{
+    float: right;
   }
 }
